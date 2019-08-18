@@ -1,0 +1,10 @@
+I set tmux prefix to ctrl-a
+
+split panes with prefix+% for vertical and prefix+" for horizontal
+copy mode with prefix+[
+    start copying with "v" and copy with "y"
+    use prefix+] to paste anywhere
+prefix+z to toggle fullscreen
+alt+direction_key to switch between panes
+prefix+d to detach
+prefix+r to reload config
