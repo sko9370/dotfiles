@@ -1,0 +1,21 @@
+**sudo apt install
+gcc make # before guest installation
+vim
+git
+curl
+tmux
+
+**software center
+visual studio code
+
+**setup shared folder
+sudo usermod -aG vboxsf $(whoami)
+automount mounts to /media/sf_VMShared
+
+**install 32 bit support for binaries
+dpkg --add-architecture i386
+apt-get update
+apt-get install libc6:i386 libstdc++6:i386
+
+**clone dotfiles for vim and tmux
+https://github.com/sko9370/dotfiles.git
