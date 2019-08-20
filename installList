@@ -24,3 +24,6 @@ https://github.com/sko9370/dotfiles.git
 plugin manager: git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm 
 sudo apt install xsel
 follow rest of directions from github above
+
+**pwndbg
+git clone https://github.com/pwndbg/pwndbg
