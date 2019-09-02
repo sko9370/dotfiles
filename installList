@@ -24,6 +24,7 @@ https://github.com/sko9370/dotfiles.git
 **tmux
 plugin manager: git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm 
 sudo apt install xsel
+tmux-yank
 follow rest of directions from github above
 
 **pwndbg
