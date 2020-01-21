@@ -5,6 +5,7 @@ git
 curl
 tmux
 python3-pip
+docker.io
 
 **software center
 visual studio code
@@ -41,6 +42,9 @@ pip3() ( python3 -m pip "$@" )
 
 **spotify-download
 https://github.com/ritiek/spotify-downloader
+use dockerfile inside repo
+    docker build .
+docker run -s [link]
 
 **thesleuthkit
 
