@@ -8,3 +8,4 @@ prefix+z to toggle fullscreen
 alt+direction_key to switch between panes
 prefix+d to detach
 prefix+r to reload config
+prefix+ctrl+o to rotate clock-wise
