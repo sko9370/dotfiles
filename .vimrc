@@ -386,3 +386,10 @@ cmap w!! w !sudo tee > /dev/null %
 
 " Show row numbers."
 set number
+
+" Save and reload fold view automatically. "
+augroup remember_folds
+  autocmd!
+  autocmd BufWinLeave * mkview
+  autocmd BufWinEnter * silent! loadview
+augroup END
