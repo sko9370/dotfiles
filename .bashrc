@@ -116,6 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=~/support/jdk-12.0.2/bin:$PATH
 pip3() ( python3 -m pip "$@" )
 PROMPT_DIRTRIM=3
