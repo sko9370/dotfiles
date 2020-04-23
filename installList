@@ -33,7 +33,9 @@ git clone https://github.com/pwndbg/pwndbg
 
 **ghidra
 download zip from website
-install jdk12 ++
+install jdk dependency
+
+- [more](https://ghidra-sre.org/InstallationGuide.html#Requirements)
 
 **bashrc
 add to path by appending new variable in bashrc
