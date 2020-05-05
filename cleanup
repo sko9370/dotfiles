@@ -1,0 +1,8 @@
+# https://itsfoss.com/free-up-space-ubuntu-linux/
+sudo apt autoremove
+sudo apt clean
+sudo journalctl --vacuum-time=3d
+
+du -h /var/lib/snapd/snaps
+du -sh ~/.cache/thumbnails
+# rm -rf ~/.cache/thumbnails/*
