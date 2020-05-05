@@ -319,25 +319,13 @@
 		# HalfUpperScreen
 	-->
 	<keybind key="C-W-Up">
-	<action name="UnmaximizeFull"/>
-	<action name="MoveResizeTo">
-	  <x>0</x>
-	  <y>0</y>
-	  <width>100%</width>
-	  <height>50%</height>
-	</action>
+	<action name="Maximize"/>
 	</keybind>
 	<!--
 		# HalfLowerScreen
 	-->
 	<keybind key="C-W-Down">
-	<action name="UnmaximizeFull"/>
-	<action name="MoveResizeTo">
-	  <x>0</x>
-	  <y>-0</y>
-	  <width>100%</width>
-	  <height>50%</height>
-	</action>
+	<action name="Iconify"/>
 	</keybind>
 
 </keyboard>

@@ -1,0 +1,1 @@
+- run `openbox --reconfigure` after replacing xml file
