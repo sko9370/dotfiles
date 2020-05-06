@@ -1,23 +1,19 @@
 **sudo apt install
 gcc make # before guest installation
 vim
-git
-curl
 tmux
-python3-pip
+git
+
+curl
+nmap
+netcat
+
 docker.io
-
-**software center
-visual studio code
-
-**setup shared folder
-sudo usermod -aG vboxsf $(whoami)
-automount mounts to /media/sf_VMShared
-
-**install 32 bit support for binaries
-dpkg --add-architecture i386
-apt-get update
-apt-get install libc6:i386 libstdc++6:i386
+**thesleuthkit
+**ghidra
+download zip from website
+install jdk dependency
+https://jdk.java.net/
 
 **clone dotfiles for vim and tmux
 https://github.com/sko9370/dotfiles.git
@@ -31,17 +27,14 @@ follow rest of directions from github above
 **pwndbg
 git clone https://github.com/pwndbg/pwndbg
 
-**ghidra
-download zip from website
-install jdk dependency
-https://jdk.java.net/
+**setup shared folder
+sudo usermod -aG vboxsf $(whoami)
+automount mounts to /media/sf_VMShared
 
-- [more](https://ghidra-sre.org/InstallationGuide.html#Requirements)
-
-**bashrc
-add to path by appending new variable in bashrc
-export PATH=~/support/jdk-12.0.2/bin:$PATH
-pip3() ( python3 -m pip "$@" )
+**install 32 bit support for binaries
+dpkg --add-architecture i386
+apt-get update
+apt-get install libc6:i386 libstdc++6:i386
 
 **spotify-download
 https://github.com/ritiek/spotify-downloader
@@ -50,6 +43,3 @@ use dockerfile inside repo
 docker run -s [link]
 sudo usermod -aG docker $USER
 then relogin
-
-**thesleuthkit
-
