@@ -116,5 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-pip3() ( python3 -m pip "$@" )
+pip3() ( sudo -H python3 -m pip "$@" )
 PROMPT_DIRTRIM=3
+export PATH=~/tools/jdk-14.0.1/bin:$PATH
