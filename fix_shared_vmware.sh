@@ -2,9 +2,7 @@
 
 sudo apt-get install open-vm-tools
 
-sudo mkdir /etc/systemd/system/mnt-hgfs.mount/
-
-sudo cp mnt-hgfs.mount /etc/systemd/system/mnt-hgfs.mount/
+sudo cp mnt-hgfs.mount /etc/systemd/system/mnt-hgfs.mount
 
 sudo cp open-vm-tools.conf /etc/modules-load.d/
 
